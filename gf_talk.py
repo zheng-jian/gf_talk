@@ -87,7 +87,7 @@ class gfweather:
             return online()
 
         # 登陆，尝试 5 次
-        for _ in range(5):
+        for _ in range(1):
             # 命令行显示登录二维码
             # itchat.auto_login(enableCmdQR=True)
             itchat.auto_login(hotReload=True)
